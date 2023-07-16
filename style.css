@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background:grey;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.header{
+    display: flex;
+}
+.logo_left h2{
+    margin-top: 25%;
+    margin-left: 25%;
+    color: #834cfc;    
+    font-size: 3em;
+}
+.logo_left h4{
+    font-size: 1.2em;
+    margin-left:20% ;
+}
+.logo_right{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+.logo_right img{
+    max-height:150px;
+    max-width: 150px;
+}
+
+.mid{
+    display: flex;
+}
+.heading_left{
+    width: 50%;
+}
+.heading_right{
+    width: 50%;
+}
+.heading_left h2{
+    
+    margin-top: 6%;
+    margin-left:15%;
+    color: #834cfc;    
+    font-size: 2em;
+    text-decoration: underline;
+}
+.heading_right h2{
+    margin-top: 6%;
+    margin-left:12rem;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 4%;
+}
+
+.content h2{
+    margin-left: 5%;
+}
+.content p{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+.footer{
+    display: flex;
+}
+
+.footer .logo_left1 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.footer .logo_right1 {
+    margin-left:50%;
+    margin-top: 10%;
+}
+.footer .logo_left1 h2{
+    color: #834cfc;
+}
+
+.footer .logo_left1 img{
+    max-height:90px;
+}
+.footer .logo_right1 img{
+    max-height:100px;
+}
